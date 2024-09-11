@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 9
+names: ['bananajuice', 'chickpeas', 'ghee', 'kidneybeans', 'mayoniasie', 'milk', 'oil', 'orangejuice', 'tomatoketchup']
+
+roboflow:
+  workspace: test-tkmcb
+  project: ai-grocery-data-set
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/test-tkmcb/ai-grocery-data-set/dataset/1
